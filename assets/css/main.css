@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+    margin: 32px;
+    color: #4D4F62;
+    width: 350px;
+    padding: 32px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.title-card {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.description-card {
+    font-size: 13px;
+    margin: 16px 0;
+}
+
+.card-one {
+    border-top: 3px solid #EA5454;
+}
+
+.card-one:hover {
+    box-shadow: 0px 15px 30px -11px #EA5454;;
+}
+
+.card-two {
+    border-top: 3px solid #549EF2;
+}
+
+.card-two:hover {
+    box-shadow: 0px 15px 30px -11px #549EF2;
+}
+
+.card-three {
+    border-top: 3px solid #FCAE4A;
+}
+
+.card-three:hover {
+    box-shadow: 0px 15px 30px -11px #FCAE4A;
+}
+
+.card-four {
+    border-top: 3px solid #44D3D2;
+}
+
+.card-four:hover {
+    box-shadow: 0px 15px 30px -11px #44D3D2;
+}
+
+.icon-card {
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width : 768px) {
+    main {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
